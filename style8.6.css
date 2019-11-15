@@ -1,0 +1,78 @@
+.green_box {
+    background: palegreen;
+    width: 850px;
+    height: 30px;
+    position: relative;
+    top: 0;
+}
+
+.caption {
+    display: table-caption;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.table {
+    display: inline-table;
+    background: #eef5d2;
+    border-width: 3px;
+    border-style: solid;
+    border-color: silver;
+}
+
+.thead {
+    display: table-header-group;
+    background: #f1db8d;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.tbody {
+    display: table-row-group;
+}
+
+.tr {
+    display: table-row;
+
+}
+
+.th {
+    display: table-cell;
+    /* padding: 1rem 1.5rem; */
+    width: 150px;
+    padding: 1rem 0.75rem 0.2rem 0.75rem;
+    margin: 1rem;
+    border: 3px dashed brown;
+}
+
+.td {
+    display: table-cell;
+    padding: 1rem;
+    border: 3px dotted silver;
+}
+
+.text--align-left {
+    text-align: left;
+}
+
+.text--align-center {
+    text-align: center;
+}
+
+.text--align-right {
+    text-align: right;
+}
+
+.gold {
+    background: gold;
+}
+
+.silver {
+    background: silver;
+}
+
+.bronze {
+    background: #cd7f32;
+}
